@@ -1,0 +1,80 @@
+/*Body CSS*/
+body {
+    background-color:#f0f8ff;
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    color: #672EBC;
+    margin: 12px 15px 30px;
+}
+
+/*Headings CSS*/
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: xxx-large;
+    text-align: center;
+    color:#585258;
+}
+h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    color:#1F5967;
+}
+h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:x-large;
+    color:#825903;
+}
+
+/*Paragraph CSS*/
+p {
+    color:#004E00;
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* <a> links CSS*/
+a:link, a:visited {
+    background-color: #0011ff;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+  
+a:hover {
+    text-decoration: underline;
+    color: hotpink;
+}
+  
+a:active {
+    text-decoration: overline;
+    background-color: yellow;
+}
+
+/*Table CSS*/
+.table-container {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px 10px;
+    margin-right: 20px;
+    border: 2px solid black;
+}
+
+.link-text, .description {
+    padding: 10px;
+   
+}
+
+.link-text a {
+    text-decoration: none;
+    color: #FFEEF6; 
+    display: inline-block;
+}
+
+

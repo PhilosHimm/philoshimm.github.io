@@ -1,0 +1,168 @@
+/*Body CSS*/
+body {
+    background-color:#f0f8ff;
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    color: #672EBC;
+    margin: 12px 15px 30px;
+}
+
+/*Headings CSS*/
+
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: xxx-large;
+    text-align: center;
+    color:#585258;
+    margin-top: 80px;
+}
+
+h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    color:#1F5967;
+}
+h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:x-large;
+    color:#825903;
+}
+
+#nameDisplay {
+    color: #353535;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/*Paragraph CSS*/
+p {
+    color:#004E00;
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* <a> links CSS*/
+a:link, a:visited {
+    background-color: #0011ff;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+  
+a:hover {
+    text-decoration: underline;
+    color: hotpink;
+}
+  
+a:active {
+    text-decoration: overline;
+    background-color: yellow;
+}
+
+/*Table CSS*/
+.table-container {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px 10px;
+    margin-right: 20px;
+    border: 2px solid black;
+}
+
+.link-text, .description {
+    padding: 10px;
+   
+}
+
+.link-text a {
+    text-decoration: none;
+    color: #FFEEF6; 
+    display: inline-block;
+}
+
+/*image css*/
+
+img {
+    float: right;
+    margin: 20px, 20px;
+    width: 250px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+/* Navbar styling */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+    padding: 10px 10px;
+    text-align: left;
+}
+
+/* Navbar link styling */
+.navbar a, .dropdown button {
+    display: inline-block;  
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dropdown menu */
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Clear floating issues for dropdown */
+.dropdown-content a {
+    float: none;
+}
+
+/* Add margin/padding to the content below the navbar */
+header {
+    margin-top: 70px; 
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}

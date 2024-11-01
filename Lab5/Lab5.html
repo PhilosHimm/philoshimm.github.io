@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta chartset="utf-8">
+        <link rel="stylesheet" href="lab5.css">
+        <title>ITM780 Lab 5</title>
+</head>
+
+    <body>
+        
+        <!-- Navigation bar -->
+        <div class="navbar">
+            <a href="Lab5.html" onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)">Home</a>
+            <div class="dropdown">
+                <a href="#" onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)">Menu ▼</a>
+                <div class="dropdown-content">
+                    <a href="page1.html" onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)">Page 1</a>
+                    <a href="page2.html" onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)">Page 2</a>
+                    <a href="https://www.linkedin.com/in/philos-himm/" onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)" target="_blank">LinkedIn</a>
+                    <a href="https://pixelsbyphilos.pixieset.com/philosportfolio/" onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)" target="_blank">Photography Portfolio</a>
+                </div>
+            </div>
+            <a href="about.html" onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)">About</a>
+            <a href="page3.html" onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)">Page 3</a>
+        </div>
+
+        <!-- Title header -->
+        <h1>Philos Himm</h1>
+
+        <!-- Javascript input for name -->
+        <h1 style="text-align: left;">Welcome, <span id="nameDisplay">Guest</span>!</h1>
+        <button onclick="askName()">  Click here to input your name </button>
+
+        <h2>Education</h2>
+        <!-- Image to be clicked, toggle image -->
+        <img src="PhotoOfPhilos.JPG" alt="Photo of Philos" id="img1" onclick="toggleImageSize()"></img>
+        
+        <!-- Main content -->
+        <hr>
+        <h3>University - Toronto Metropolitan University</h2>
+
+        <h4>Sept 2022 - June 2027</h4>
+
+        <p>I am a third year student in Business Technology Manangement at the Ted Rogers School of Management. Here are my top 3 courses:</p>
+        <!-- Ordered List of courses -->
+        <ol>
+            <li>ITM 100: Foundations of Information Systems</li>
+            <blockquote cite="https://www.torontomu.ca/calendar/2021-2022/courses/information-technology-management/ITM/100/">
+                This course is designed to introduce students to contemporary information systems and demonstrate how these systems are used throughout global organizations.
+            </blockquote>
+            <li>ITM 301: IT Infrastructure</li>
+            <blockquote cite="https://www.torontomu.ca/calendar/2021-2022/courses/information-technology-management/ITM/301/">
+                This course provides an introduction to computer hardware/software and communication networks.
+            </blockquote>
+            <li>ITM305: Systems Analysis and Design</li>
+            <blockquote cite="https://www.torontomu.ca/calendar/2021-2022/courses/information-technology-management/ITM/305/">
+                The course covers the key concepts, techniques, and methodologies relevant to the process of developing information systems (IS).
+            </blockquote>
+        </ol>
+
+        <br>
+        <p>
+            I found that <b>ITM100</b> was incredibly helpful to me as it provided a comprehensive introduction to the role of information systems in modern business. Through the course, I gained an understanding of the core components of IS—people, software, hardware, data, and communication technologies, and how they work together to enhance organizational performance.
+        </p>
+
+        <!-- Table with buttons and links -->
+        <h3>Educational Awards</h3>
+        <div class="table-container">
+            <table>
+                <tr>
+                    <td><div class="link-text"><a href="https://ca.badgr.com/public/assertions/9cE4YTudT9ejK8WDhcwJ_Q" target="_blank">Top 10 % Engaged 22/23</a></div></td>
+                    <td><div class="description">Recognition for the top 10% engaged students for the academic year 22/23.</div></td>
+                </tr>
+                <tr>
+                    <td><div class="link-text"><a href="https://trsmcredentials.torontomu.ca/8350b253-ad4a-4f8f-9b03-4c2c269147b5?record_view=true" target="_blank">Python 2.0</a></div></td>
+                    <td><div class="description">Certification for completion of Python 2.0 course.</div></td>
+                </tr>
+                <tr>
+                    <td><div class="link-text"><a href="https://trsmcredentials.torontomu.ca/b5b0b065-88fa-4247-8695-16b7b0ca417b?record_view=true" target="_blank">Power of Excel 2.0</a></div></td>
+                    <td><div class="description">Certification for completion of Power of Excel 2.0 course.</div></td>
+                </tr>
+                <tr>
+                    <td><div class="link-text"><a href="https://trsmcredentials.torontomu.ca/b3890389-6833-42d6-ae59-def3ef6cc896?record_view=true" target="_blank">Power BI 2.0</a></div></td>
+                    <td><div class="description">Certification for completion of Power BI 2.0 course.</div></td>
+                </tr>
+            </table>
+        </div>
+        
+        <!-- Unordered list with extracurriculars-->
+        <h3>Extracurriculars</h3>
+        <ul>
+            <li>Google Developers Group Sponsorship associate</li>
+            <li>Breakthrough Mentor & Mentee</li>
+            <li>Sales Club General Member</li>
+            <li>Intramurals Assistnat</li>
+        </ul>
+        <hr>
+
+        <!-- Ordered list of High Schools -->
+        <h2>High School(s)</h2>
+        <ol> 
+            <li>C.W. Jefferys</li>
+                <ul>
+                    <li>Sept 2019 - June 2020</li>
+                </ul>
+            <li>International School Siem Reap</li>
+            <ul>
+                <li>Sept 2016 - June 2019</li>
+            </ul>
+        </ol>
+
+        <hr>
+        <h2>LinkedIn</h2>
+        <a href="https://www.linkedin.com/in/philos-himm/">My LinkedIn Account</a>
+
+    <script src="lab5.js"></script>    
+    </body>
+</html>
