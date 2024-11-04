@@ -9,47 +9,50 @@
 
 <body class="bg-dark text-light">
 
-<!-- Navigation Bar -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">myPortfolio</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#work-experience">Work Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#certifications">Certifications</a>
-        </li>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
-
-<!-- Header Section -->
+  <!-- Header Section with Integrated Navbar -->
 <header class="bg-light p-4">
-  <div class="container d-flex justify-content-between align-items-center ">
-    <h1 class="text-black">Portfolio Website</h1>
-    <div>
-      <span class="text-dark"> Phimm@torontomu.ca | 416-###-#### </span>
-      <a href="#" class="mx-2"><img src="assets/icons8-instagram-48.png" alt="Instagram icon"></a>
-      <a href="#" class="mx-2"><img src="assets/icons8-linkedin-48.png" alt="LinkedIn icon"></a>
-      <a href="#" class="mx-2"><img src="assets/icons8-github-30.png" alt="GitHub icon"></a>
+  <div class="container-fluid">
+    <!-- Top Section with Logo and Contact Info -->
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <h1 class="text-black mb-0">Portfolio Website</h1>
+      <div>
+        <span class="text-dark">Phimm@torontomu.ca | 416-###-####</span>
+        <a href="#" class="mx-2"><img src="assets/icons8-instagram-48.png" alt="Instagram icon"></a>
+        <a href="#" class="mx-2"><img src="assets/icons8-linkedin-48.png" alt="LinkedIn icon"></a>
+        <a href="#" class="mx-2"><img src="assets/icons8-github-30.png" alt="GitHub icon"></a>
+      </div>
     </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <a class="navbar-brand" href="#">Philos Himm</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work-experience">Work Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#certifications">Certifications</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
   </div>
 </header>
+
 
 <!-- Main Content -->
 <main class="container mt-5">
@@ -67,7 +70,8 @@
         <img src="assets/VR_08528.jpg" alt="Headshot of Portfolio" class="img-fluid mb-2 w-75">
       </div>
     </div>
-  </div>
+  </div> 
+
 
   <!-- Divider -->
   <hr>
