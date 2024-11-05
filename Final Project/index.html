@@ -14,12 +14,12 @@
   <div class="container-fluid">
     <!-- Top Section with Logo and Contact Info -->
     <div class="d-flex justify-content-between align-items-center mb-3">
-      <h1 class="text-black mb-0">Portfolio Website</h1>
+      <h1 class="text-black mb-0 me-2">Portfolio Website</h1>
       <div>
         <span class="text-dark">Phimm@torontomu.ca | 416-###-####</span>
-        <a href="#" class="mx-2"><img src="assets/icons8-instagram-48.png" alt="Instagram icon"></a>
-        <a href="#" class="mx-2"><img src="assets/icons8-linkedin-48.png" alt="LinkedIn icon"></a>
-        <a href="#" class="mx-2"><img src="assets/icons8-github-30.png" alt="GitHub icon"></a>
+        <a href="https://www.instagram.com/philoshimm/" target="_blank" class="mx-2"><img src="assets/icons8-instagram-48.png" alt="Instagram icon"></a>
+        <a href="https://www.linkedin.com/in/philos-himm/" target="_blank" class="mx-2"><img src="assets/icons8-linkedin-48.png" alt="LinkedIn icon"></a>
+        <a href="https://github.com/PhilosHimm" target="_blank" class="mx-2"><img src="assets/icons8-github-30.png" alt="GitHub icon"></a>
       </div>
     </div>
 
@@ -60,7 +60,7 @@
       <!-- Text Section -->
       <div class="col-md-6 order-1 order-md-2 text-center text-md-start">
         <h2>Hi, I'm Philos</h2>
-        <p>Welcome to my portfolio, where my experience in data analytics, project support, and community engagement comes to life.</p>
+        <p>A 3rd Year BTM Major - experienced in data analytics, project support, and community engagement.</p>
         <button type="button" class="btn btn-info mb-5" onclick="scrollToWorkExperience()">Why Hire Me?</button>
         <button type="button" class="btn btn-secondary mb-5" onclick="scrollToContact()">Contact me</button>
       </div>
@@ -141,22 +141,22 @@
 
 <!-- Contact me section -->
  <container id="contactMe">
-  <h2>Contact Me</h2>
-  <form>
+  <h2 class="m-3">Contact Me</h2>
+  <form class="m-3">
     <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      <label for="inputName" class="form-label">Your Name</label>
+      <input type="text" class="form-control" id="inputName" aria-describedby="emailHelp">
     </div>
-    <!-- <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1">
-    </div> -->
-    <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    <div class="mb-3">
+      <label for="inputEmail" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</div>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <div class="input-group">
+      <span class="input-group-text mb">Your Message</span>
+      <textarea class="form-control" aria-label="With textarea"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Send Message</button>
   </form>
 </container>
 
