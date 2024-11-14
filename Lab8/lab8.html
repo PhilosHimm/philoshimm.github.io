@@ -4,8 +4,146 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab 8</title>
+    <link rel="stylesheet" href="lab8.css">
 </head>
 <body>
-    
+
+<!-- Header and Navigation -->
+<header>
+    <nav class="navbar">
+        <div class="logo">Photography by Philos</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Main Content -->
+<main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay">
+            <h1>Welcome to My Photography Portfolio</h1>
+            <p>Capturing moments that last a lifetime.</p>
+            <a href="#contact" class="cta-button">Book a Session</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p> Hello! I'm Philos, a passionate photographer dedicated to capturing the beauty and emotion in every moment. My style focuses on natural, authentic, and creative imagery that tells a story, preserving life's memories through the lens. 
+            I believe each photograph should narrate a unique story, becoming not just an image but a timeless keepsake.
+        </p>
+        <p>If you're interested in working together, feel free to reach out. Let's create something beautiful and memorable!</p>
+    </section>
+
+    <!-- Form Section / Contact Me section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+
+            <!-- Personal Information Fieldset -->
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <!-- Name Field -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <!-- Email Field -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <!-- Phone Number with Datalist for Country Codes -->
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" list="countryCodes" placeholder="E.g., +1 (555) 555-5555">
+                <datalist id="countryCodes">
+                    <option value="+1">Canada</option>
+                    <option value="+1">United States</option>
+                    <option value="+44">United Kingdom</option>
+                    <option value="+61">Australia</option>
+                </datalist>
+            </fieldset>
+
+            <!-- Event and Style Fieldset -->
+            <fieldset>
+                <legend>Event Details</legend>
+
+                <!-- Event Type with Optgroup -->
+                <label for="eventType">Event Type:</label>
+                <select id="eventType" name="eventType">
+                    <optgroup label="People Photography">
+                        <option value="Wedding">Wedding</option>
+                        <option value="Portrait">Portrait</option>
+                        <option value="Events">Events</option>
+                    </optgroup>
+                    <optgroup label="Nature Photography">
+                        <option value="Landscape">Landscape</option>
+                        <option value="Wildlife">Wildlife</option>
+                    </optgroup>
+                    <option value="Other">Other</option>
+                </select>
+
+                <!-- Preferred Style (Checkboxes) -->
+                <label>Preferred Style:</label>
+                <div>
+                    <input type="checkbox" id="styleNatural" name="style" value="Natural">
+                    <label for="styleNatural">Natural</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="styleArtistic" name="style" value="Artistic">
+                    <label for="styleArtistic">Artistic</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="styleClassic" name="style" value="Classic">
+                    <label for="styleClassic">Classic</label>
+                </div>
+            </fieldset>
+
+            <!-- Budget and Date Fieldset -->
+            <fieldset>
+                <legend>Session Preferences</legend>
+
+                <!-- Budget (Radio Buttons) -->
+                <label>Budget:</label>
+                <div>
+                    <input type="radio" id="budgetUnder500" name="budget" value="Under 500" checked>
+                    <label for="budgetUnder500">Under $500</label>
+                </div>
+                <div>
+                    <input type="radio" id="budget500to1000" name="budget" value="500-1000">
+                    <label for="budget500to1000">$500 - $1000</label>
+                </div>
+                <div>
+                    <input type="radio" id="budget1000plus" name="budget" value="1000+">
+                    <label for="budget1000plus">Over $1000</label>
+                </div>
+
+                <!-- Preferred Date -->
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="date">
+            </fieldset>
+
+            <!-- Additional Details -->
+            <label for="details">Additional Details:</label>
+            <textarea id="details" name="details" rows="4" cols="50"></textarea>
+
+            <!-- Submit Button -->
+            <button type="button" onclick="submitForm()">Submit</button>
+            <!-- Clear/Reset Button -->
+            <button type="reset">Clear</button>
+        </form>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 Photography by Philos. All rights reserved.</p>
+</footer>
+
+<script src="lab8.js"></script>    
 </body>
 </html>
