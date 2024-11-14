@@ -40,8 +40,8 @@ function toggleColors() {
             el.style.color = '';
             el.style.backgroundColor = '';
         } else {
-            el.style.color = '#222';
-            el.style.backgroundColor = '#813fa8';
+            el.style.color = '#FFF';
+            el.style.backgroundColor = '#6a25a8';
         }
     });
     isAltColor = !isAltColor;
