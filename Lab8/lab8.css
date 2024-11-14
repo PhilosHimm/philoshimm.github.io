@@ -5,11 +5,23 @@
     box-sizing: border-box;
 }
 
+/* accessibility color */
+.alt-color {
+    background-color:#813fa8;
+    color: #fff;
+}
+
 /* Body Styling */
 body {
     font-family: 'Arial', sans-serif;
     color: #333;
     background-color: #f4f4f9;
+}
+
+img {
+    width: 50%; /* Image will take up the half width of its container */
+    height: auto; /* Maintain the image’s aspect ratio */
+    max-width: 100%; /* Prevents image from getting larger than its original size */
 }
 
 /* Navigation Bar */
@@ -232,3 +244,4 @@ button[type="reset"]:hover {
         padding: 10px 20px;
     }
 }
+

@@ -31,6 +31,12 @@
         </div>
     </section>
 
+<!-- Toggle accessibility -->
+<button onclick="toggleTextSize()">Increase Text Size</button>
+<button onclick="toggleColors()">Toggle Colors</button>
+
+
+
     <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
@@ -39,6 +45,35 @@
         </p>
         <p>If you're interested in working together, feel free to reach out. Let's create something beautiful and memorable!</p>
     </section>
+
+    <!-- Media Section -->
+    <section id="media">
+        <h2>My Custom Video</h2>
+        <figure>
+            <iframe width="560" height="315" src="Introducing Alpha 6700 _ Sony _ α.mp4" title="Sony A6700 Promotional video"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <figcaption>Video from [Source in APA 7th Edition Format].</figcaption>
+        </figure>
+    </section>
+
+<!-- Image Gallery Section -->
+<section id="gallery">
+    <h2>My Photo Gallery</h2>
+    <figure>
+        <img src="DSC09046.jpg" alt="A description of the first image">
+        <figcaption>Taken on [Date, Location]</figcaption>
+    </figure>
+    <figure>
+        <img src="DSC02311.JPG" alt="A description of the second image">
+        <figcaption>Taken on [Date, Location]</figcaption>
+    </figure>
+    <figure>
+        <img src="SpadinaCNtower.heic" alt="A description of the third image">
+        <figcaption>Taken on [Date, Location]</figcaption>
+    </figure>
+    <button onclick="displayAltText()">Show Image Descriptions</button>
+    <p id="altText"></p>
+</section>
 
     <!-- Form Section / Contact Me section -->
     <section id="contact">

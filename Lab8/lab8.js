@@ -18,3 +18,31 @@ function submitForm() {
     // Reset form fields after submission
     document.getElementById("contactForm").reset();
 }
+
+//Function to increase text size
+let isLargeText = false;
+
+function toggleTextSize() {
+    const elements = document.querySelectorAll('p, h4, h5, h6, a, li');
+    elements.forEach(el => {
+        el.style.fontSize = isLargeText ? '1em' : '1.25em';
+    });
+    isLargeText = !isLargeText;
+}
+
+//Function to toggle color
+let isAltColor = false;
+
+function toggleColors() {
+    const elements = document.querySelectorAll('body, p, h1, h2, h3, h4, h5, h6, a, li');
+    elements.forEach(el => {
+        if (isAltColor) {
+            el.style.color = '';
+            el.style.backgroundColor = '';
+        } else {
+            el.style.color = '#f5f5f5';
+            el.style.backgroundColor = '#222';
+        }
+    });
+    isAltColor = !isAltColor;
+}
