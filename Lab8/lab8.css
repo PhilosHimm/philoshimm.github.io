@@ -228,6 +228,10 @@ button[type="reset"]:hover {
     background-color: #bbb;
 }
 
+figcaption {
+    margin: 10px;
+}
+
 /* Simple Responsive Adjustment for Smaller Screens */
 @media (max-width: 768px) {
     .nav-links {
