@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Personal Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
 
 <body class="bg-dark text-light">
@@ -22,40 +23,34 @@
         <a href="https://github.com/PhilosHimm" target="_blank" class="mx-2"><img src="assets/icons8-github-30.png" alt="GitHub icon"></a>
       </div>
     </div>
-
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <a class="navbar-brand" href="#">Philos Himm</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#work-experience">Work Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#certifications">Certifications</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
   </div>
 </header>
 
+<!-- Navigation Bar -->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">My Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#work-experience">Work experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contactForm">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
 <!-- Main Content -->
-<main class="container mt-5">
+<main id ="home" class="container mt-5">
     <div class="row align-items-center">
       <!-- Text Section -->
       <div class="col-md-6 order-1 order-md-2 text-center text-md-start">
@@ -140,25 +135,26 @@
 </main>
 
 <!-- Contact me section -->
- <container id="contactMe">
-  <h2 class="m-3">Contact Me</h2>
-  <form class="m-3">
+<section class="m-5">
+  <h2>Contact Me</h2>
+  <form id="contactForm">
     <div class="mb-3">
       <label for="inputName" class="form-label">Your Name</label>
-      <input type="text" class="form-control" id="inputName" aria-describedby="emailHelp">
+      <input type="text" class="form-control" id="inputName" required>
     </div>
     <div class="mb-3">
-      <label for="inputEmail" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
-      <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</div>
+      <label for="inputEmail" class="form-label">Email Address</label>
+      <input type="email" class="form-control" id="inputEmail" required>
     </div>
-    <div class="input-group">
-      <span class="input-group-text mb">Your Message</span>
-      <textarea class="form-control" aria-label="With textarea"></textarea>
+    <div class="mb-3">
+      <label for="inputMessage" class="form-label">Your Message</label>
+      <textarea class="form-control" id="inputMessage" rows="3" required></textarea>
     </div>
-    <button type="submit" class="btn btn-primary mt-3">Send Message</button>
+    <button type="submit" class="btn btn-primary">Send Message</button>
   </form>
-</container>
+    <!-- Placeholder for response message -->
+    <div id="formResponse" class="mt-3"></div>
+</section>
 
 <script src="project.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
