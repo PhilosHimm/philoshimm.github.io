@@ -21,10 +21,15 @@
     transform: translateY(0);
   }
 
+/* Set scroll to above section */
+html {
+  scroll-behavior: smooth; /* Smooth scrolling */
+  scroll-padding-top: 60px; /* Adjust this value to match the height of your navbar */
+}
 
 /* Highlight animation */
 .section-hover {
-    animation: hoverEffect 1s ease-out;
+    animation: hoverEffect 1.5s ease-out;
   }
   
   @keyframes hoverEffect {
