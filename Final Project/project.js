@@ -27,23 +27,6 @@ function scrollToContact() {
     lastScrollY = window.scrollY; // Update the last scroll position
   }); 
 
-// Function to scroll with offset
-// document.querySelectorAll('a.nav-link').forEach(anchor => {
-//   anchor.addEventListener('click', function (e) {
-//     e.preventDefault(); // Prevent default anchor click behavior
-//     const targetId = this.getAttribute('href').substring(1); // Get the target ID
-//     const targetElement = document.getElementById(targetId); // Find the target element
-//     const offset = 100; // Adjust this value for desired padding
-//     const targetPosition = targetElement.offsetTop - offset;
-
-//     // Scroll to the target position with smooth behavior
-//     window.scrollTo({
-//       top: targetPosition,
-//       behavior: 'smooth'
-//     });
-//   });
-// });
-
 // Function to fade-in sections
 document.addEventListener("DOMContentLoaded", () => {
   const sections = document.querySelectorAll(".fade-section");
