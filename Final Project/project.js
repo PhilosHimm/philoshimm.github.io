@@ -1,12 +1,12 @@
 
-// Function to scroll to the Work Experience section
+// Function to scroll to the Work Experience section button
 
 function scrollToWorkExperience() {
     const workExperienceSection = document.getElementById("work-experience");
     workExperienceSection.scrollIntoView({ behavior: "smooth" });
   }
 
-// Function to scroll to the contact section
+// Function to scroll to the contact section button
 function scrollToContact() {
     const workExperienceSection = document.getElementById("contactForm");
     workExperienceSection.scrollIntoView({ behavior: "smooth" });
@@ -43,6 +43,54 @@ document.querySelectorAll('a.nav-link').forEach(anchor => {
     });
   });
 });
+
+// Function to fade-in sections
+document.addEventListener("DOMContentLoaded", () => {
+  const sections = document.querySelectorAll(".fade-section");
+
+  const handleScroll = () => {
+    sections.forEach(section => {
+      const sectionTop = section.getBoundingClientRect().top;
+      const triggerPoint = window.innerHeight / 1.2;
+
+      if (sectionTop < triggerPoint) {
+        section.classList.add("visible");
+      }
+    });
+  };
+
+  // Run on scroll
+  window.addEventListener("scroll", handleScroll);
+
+  // Initial check
+  handleScroll();
+});
+
+// Function to highlight section when clicked on Nav
+document.addEventListener("DOMContentLoaded", () => {
+  const navLinks = document.querySelectorAll(".nav-link");
+
+  navLinks.forEach(link => {
+    link.addEventListener("click", (event) => {
+      event.preventDefault(); // Prevent default anchor click behavior
+
+      const targetId = link.getAttribute("href").substring(1); // Get the target section ID
+      const targetSection = document.getElementById(targetId);
+
+      // Scroll to the section
+      targetSection.scrollIntoView({ behavior: "smooth" });
+
+      // Add the highlight animation class
+      targetSection.classList.add("section-hover");
+
+      // Remove the animation class after it ends
+      setTimeout(() => {
+        targetSection.classList.remove("section-hover");
+      }, 800); // Match the duration of the animation
+    });
+  });
+});
+
 
 // Function for form submission
 document.getElementById('contactForm').addEventListener('submit', function (e) {
