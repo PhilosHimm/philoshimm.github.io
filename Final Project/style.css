@@ -4,7 +4,7 @@
   height: 48px; 
   object-fit: contain; /* Ensure icons keep their aspect ratio */
 }
-
+ 
 #navbar {
     transition: top 0.3s ease-in-out;
     margin-top: -2rem;
