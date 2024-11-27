@@ -1,4 +1,41 @@
 
+// Function to highlight Job when navigated to
+document.addEventListener("DOMContentLoaded", () => {
+  // IDs of the job sections to highlight
+  const jobSectionIds = ["salvation-army", "tmu-intramurals", "marigolds-onions", "best-buy"];
+
+  // Function to add and remove highlight
+  const highlightSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      // Add the highlight class
+      section.classList.add("highlight");
+      // Remove the highlight class after 1 second to allow the fade-out transition
+      setTimeout(() => {
+        section.classList.remove("highlight");
+      }, 1500);
+    }
+  };
+
+  // Detect navigation clicks to sections
+  document.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", (e) => {
+      // Extract the target ID from the link href
+      const targetId = link.href.split("#")[1];
+      if (jobSectionIds.includes(targetId)) {
+        highlightSection(targetId);
+      }
+    });
+  });
+
+  // Automatically highlight on page load if there's a hash in the URL
+  const hashId = window.location.hash.slice(1); // Get the ID from the URL hash
+  if (jobSectionIds.includes(hashId)) {
+    highlightSection(hashId);
+  }
+});
+
+
 //Function to fade into different pages
 document.querySelectorAll('a').forEach(link => {
   link.addEventListener('click', function (e) {

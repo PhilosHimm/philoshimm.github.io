@@ -25,6 +25,19 @@ body.page-fade-out {
     margin-top: -2rem;
 }
 
+/* Highlight effect */
+/* Initial state: no highlight */
+.job-section {
+  background-color: transparent;
+  transition: background-color 1s ease-in-out; /* Smooth transition for both entry and exit */
+}
+
+/* Highlight state */
+.job-section.highlight {
+  background-color: #ffffff69; /* Highlight color */
+  
+}
+
 .fade-section {
     opacity: 0;
     transform: translateY(20px);
