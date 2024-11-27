@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-//Function to fade into different pages
+// Function to fade into different pages
 document.querySelectorAll('a').forEach(link => {
   link.addEventListener('click', function (e) {
     // Get the target URL of the clicked link
