@@ -10,7 +10,7 @@
 
 <body class="bg-dark text-light">
 
-<!-- Header Section with Integrated Navbar -->
+<!-- Header Section -->
 <header class="bg-light p-4">
   <div class="container-fluid">
     <!-- Top Section with Logo and Contact Info -->
@@ -26,17 +26,30 @@
   </div>
 </header>
 
+
 <!-- Navigation Bar -->
 <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Philos</a>
+    <a class="navbar-brand" href="index.html#">Philos</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#work-experience">Work experience</a>
+        <!-- Work Experience Split Dropdown -->
+        <li class="nav-item dropdown">
+          <div class="btn-group">
+            <a href="index.html#work-experience" class="btn btn-secondary">Work Experience</a>
+            <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="workExperience.html#salvation-army">The Salvation Army</a></li>
+              <li><a class="dropdown-item" href="workExperience.html#tmu-intramurals">Intramurals Assistant (TMU)</a></li>
+              <li><a class="dropdown-item" href="workExperience.html#marigolds-onions">Marigolds & Onions</a></li>
+              <li><a class="dropdown-item" href="workExperience.html#best-buy">Best Buy</a></li>
+            </ul>
+          </div>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#skills">Skills</a>
@@ -67,7 +80,7 @@
     </div>
     <!-- Image -->
      <div class="col-md-4 order-2 order-md-1 d-flex justify-content-center">
-       <img src="assets/VR_08528.jpg" alt="Headshot of Portfolio" class="img-fluid mb-2 w-75">
+       <img src="assets/ProfilePic.jpg" alt="Headshot of Portfolio" class="img-fluid mb-2 w-75">
      </div>
   </div>
 
@@ -77,37 +90,64 @@
   <!-- Professional Experience Section -->
   <section class="bg-light text-dark fade-section p-3" id="work-experience">
     <div class="row">
-      <div class="col-12">
-        <h3 class="text-centre">Work Experience</h3>
+      <div class="col-12 mb-4">
+        <h2 class="text-center">Work Experience</h2>
       </div>
     </div>
-    <div class="row align-items-center">
-      <!-- Text Content -->
-      <div class="col-md-8">
-        <h5>Office Assistant Summer Student Co-op</h5>
-        <p><strong>The Salvation Army: Territorial Headquarters Canada & Bermuda</strong><br>
-          <em>May 2024 - July 2024</em>
-        </p>
-        <ul>
-          <li>Streamlined data management by implementing advanced Excel functions to process and input over 100,000 general ledger purchases and sales invoices, resulting in increased efficiency and accuracy across financial reporting, ensuring timely and error-free data for analysis and decision-making.</li>
-          <li>Generated data visualizations and reports using Excel and Power BI from 20+ financial invoice and expense spreadsheets for 150+ ministry units across Canada, driving procurement insights and decisions that enhanced strategic planning and optimized cost management across the organization.</li>
-          <li>Collaborated with the supplies & purchasing team to ensure seamless execution of projects and mission support activities.</li>
-          <li>Organized documentation, filing, and archiving of 200+ invoices and other supplies & purchasing duties.</li>
-        </ul>
+    <div class="row justify-content-center">
+      <!-- Office Assistant Card -->
+      <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center mb-4">
+        <div class="card" style="width: 18rem;">
+          <img src="assets/SalvationArmy.jpg" class="card-img-top img-fluid" alt="Salvation Army Headquarters">
+          <div class="card-body">
+            <h5 class="card-title">Office Assistant Summer Student Co-op</h5>
+            <p class="card-text"><strong>The Salvation Army: Territorial Headquarters Canada & Bermuda</strong><br>
+              <em>May 2024 - July 2024</em>
+            </p>
+            <a href="workExperience.html" class="btn btn-primary">Check it out</a>
+          </div>
+        </div>
       </div>
-      <!-- Image Content -->
-      <div class="col-md-4 d-flex justify-content-center align-items-center">
-        <img src="assets/SalvationArmy.jpg" alt="Salvation Army Headquarters building behind trees" class="img-fluid rounded shadow w-50">
+      <!-- Intramural Assistant Card -->
+      <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center mb-4">
+        <div class="card" style="width: 18rem;">
+          <img src="assets/TMU_Intramurals.jpg" class="card-img-top img-fluid" alt="TMU Intramurals">
+          <div class="card-body">
+            <h5 class="card-title">Intramural Assistant, Game Day Referee</h5>
+            <p class="card-text"><strong>TMU: Department of Athletics and Recreation</strong><br>
+              <em>Sept 2023 - April 2024, Sept 2024 - Present</em>
+            </p>
+            <a href="workExperience.html" class="btn btn-primary">Check it out</a>
+          </div>
+        </div>
+      </div>
+      <!-- Beverage Inventory Assistant Card -->
+      <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center mb-4">
+        <div class="card" style="width: 18rem;">
+          <img src="assets/MarigoldOnion.jpg" class="card-img-top img-fluid" alt="Marigold & Onions">
+          <div class="card-body">
+            <h5 class="card-title">Beverage Inventory Assistant</h5>
+            <p class="card-text"><strong>Marigolds & Onions | Catering & Event Production</strong><br>
+              <em>Jun 2022 - Aug 2022, Jun 2023 - Aug 2023</em>
+            </p>
+            <a href="workExperience.html" class="btn btn-primary">Check it out</a>
+          </div>
+        </div>
+      </div>
+      <!-- Product Process Specialist Card -->
+      <div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center mb-4">
+        <div class="card" style="width: 18rem;">
+          <img src="assets/BestBuy.jpg" class="card-img-top img-fluid" alt="Best Buy">
+          <div class="card-body">
+            <h5 class="card-title">Product Process Specialist</h5>
+            <p class="card-text"><strong>Best Buy</strong><br>
+              <em>Oct 2020 - Jan 2022</em>
+            </p>
+            <a href="workExperience.html" class="btn btn-primary">Check it out</a>
+          </div>
+        </div>
       </div>
     </div>
-        <h5>Intramural Assistant, Game day Referee</h5>
-        <p><strong>TMU: Department of Athletics and Recreation</strong><br>
-        <em>Sept 2023 - April 2024, Sept 2024 - Present</em></p>
-        <ul>
-          <li>Coordinated weekly procedures for volleyball intramurals, ensuring smooth game flow and adherence to rules.</li>
-          <li>Advocated for a positive environment by promoting fun, safety, and encouraging social interaction, fair play, and equality.</li>
-          <li>Achieved an average game time of 15 minutes, streamlining event execution, setups, takedowns, and timely game starts.</li>
-        </ul>
   </section>
 
   <!-- Skills Section -->

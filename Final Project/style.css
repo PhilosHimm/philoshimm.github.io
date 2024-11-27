@@ -53,3 +53,28 @@ html {
       transform: scale(1);
     }
   }
+
+.card {
+  position: relative; /* Ensure the card is a relative container for positioning child elements */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation for hover effect */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}  
+
+.card-body {
+  padding-bottom: 50px; /* Add padding to make space for the button */
+}
+
+.card .btn {
+  position: absolute;
+  bottom: 15px; /* Adjust the distance from the bottom */
+  left: 15px; /* Adjust the distance from the left */
+}
