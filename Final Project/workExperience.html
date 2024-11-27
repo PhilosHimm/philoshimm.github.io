@@ -12,68 +12,84 @@
 
 <!-- Header Section -->
 <header class="bg-light p-4">
-    <div class="container-fluid">
-      <!-- Top Section with Logo and Contact Info -->
-      <div class="d-flex justify-content-between align-items-center mb-3">
-        <h1 class="text-black mb-0 me-2">My Website Portfolio</h1>
-        <div>
-          <span class="text-dark">Phimm@torontomu.ca | 416-###-####</span>
-          <a href="https://www.instagram.com/philoshimm/" target="_blank" class="mx-2"><img src="assets/Instagram_icon.png" alt="Instagram icon" class="img-fluid header-icon"></a>
-          <a href="https://www.linkedin.com/in/philos-himm/" target="_blank" class="mx-2"><img src="assets/LinkedIn_icon.png" alt="LinkedIn icon" class="img-fluid header-icon"></a>
-          <a href="https://github.com/PhilosHimm" target="_blank" class="mx-2"><img src="assets/Github_icon.png" alt="GitHub icon" class="img-fluid header-icon"></a>
-        </div>
+  <div class="container-fluid">
+    <!-- Top Section with Logo and Contact Info -->
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <h1 class="text-black mb-0 me-2">My Website Portfolio</h1>
+      <div>
+        <span class="text-dark">Phimm@torontomu.ca | 416-###-####</span>
+        <a href="https://www.instagram.com/philoshimm/" target="_blank" class="mx-2" aria-label="Visit my Instagram profile (opens in a new tab)">
+          <img src="assets/Instagram_icon.png" alt="Instagram icon" class="img-fluid header-icon"></a>
+        <a href="https://www.linkedin.com/in/philos-himm/" target="_blank" class="mx-2" aria-label="Visit my LinkedIn profile (opens in a new tab)">
+          <img src="assets/LinkedIn_icon.png" alt="LinkedIn icon" class="img-fluid header-icon"></a>
+        <a href="https://github.com/PhilosHimm" target="_blank" class="mx-2" aria-label="Visit my GitHub profile (opens in a new tab)">
+          <img src="assets/Github_icon.png" alt="GitHub icon" class="img-fluid header-icon"></a>
       </div>
     </div>
-  </header>
+  </div>
+</header> 
   
 <!-- Navigation Bar -->
-<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Philos</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <!-- Work Experience Dropdown -->
-          <li class="nav-item dropdown m-1">
-            <div class="btn-group">
-              <a href="index.html#work-experience" class="btn btn-outline-primary">Work Experience</a>
-              <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-                <span class="visually-hidden">Toggle Dropdown</span>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="workExperience.html#salvation-army">The Salvation Army</a></li>
-                <li><a class="dropdown-item" href="workExperience.html#tmu-intramurals">Intramurals Assistant (TMU)</a></li>
-                <li><a class="dropdown-item" href="workExperience.html#marigolds-onions">Marigolds & Onions</a></li>
-                <li><a class="dropdown-item" href="workExperience.html#best-buy">Best Buy</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a href="index.html#skills" class="btn btn-outline-primary m-1">Skills</a>
-          </li>
-          <!-- Certifications Button -->
-          <li class="nav-item">
-            <a href="index.html#certifications" class="btn btn-outline-primary m-1">Certifications</a>
-          </li>
-          <!-- Contact Button -->
-          <li class="nav-item">
-            <a href="index.html#contactForm" class="btn btn-outline-primary m-1">Contact</a>
-          </li>
-        </ul>
-      </div>
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light sticky-top" aria-label="Main navigation">
+  <div class="container-fluid">
+    <!-- Brand -->
+    <a class="navbar-brand" href="index.html" aria-label="Go to homepage">Philos</a>
+
+    <!-- Toggler Button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible Navigation -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <!-- Work Experience Dropdown -->
+        <li class="nav-item dropdown m-1">
+          <div class="btn-group">
+            <a href="#" class="btn btn-outline-primary" aria-label="Navigate to Work Experience section">Work Experience</a>
+            <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split" 
+              data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true" 
+              aria-label="Open Work Experience dropdown menu">
+              <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu" aria-label="Work Experience submenu">
+              <li><a class="dropdown-item" href="workExperience.html#salvation-army" aria-label="Go to The Salvation Army section">The Salvation Army</a></li>
+              <li><a class="dropdown-item" href="workExperience.html#tmu-intramurals" aria-label="Go to Intramurals Assistant section at TMU">Intramurals Assistant (TMU)</a></li>
+              <li><a class="dropdown-item" href="workExperience.html#marigolds-onions" aria-label="Go to Marigolds & Onions section">Marigolds & Onions</a></li>
+              <li><a class="dropdown-item" href="workExperience.html#best-buy" aria-label="Go to Best Buy section">Best Buy</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <!-- Skills Button -->
+        <li class="nav-item">
+          <a href="index.html#skills" class="btn btn-outline-primary m-1" aria-label="Navigate to Skills section">Skills</a>
+        </li>
+
+        <!-- Certifications Button -->
+        <li class="nav-item">
+          <a href="index.html#certifications" class="btn btn-outline-primary m-1" aria-label="Navigate to Certifications section">Certifications</a>
+        </li>
+
+        <!-- Contact Button -->
+        <li class="nav-item">
+          <a href="index.html#contactForm" class="btn btn-outline-primary m-1" aria-label="Navigate to Contact section">Contact</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
+
   
   
   
   <main>
     <section class="m-5">
-      <h1>Work Experience</h1>
+      <h1 class="text-center mb-5">Work Experience</h1>
       <div class="row align-items-center">
         <!-- Salvation Army -->
-        <div id="salvation-army" class="col-md-8 mb-4 job-section">
+        <div id="salvation-army" class="col-md-8 mb-4 job-section flex-column justify-content-center align-items-center mx-auto">
           <h5>Office Support Assistant</h5>
           <p><strong>The Salvation Army: Territorial Headquarters Canada & Bermuda</strong><br>
             <em>May 2024 - Jul 2024</em>
@@ -86,8 +102,9 @@
             <li>Organized documentation, filing, and archiving of 200+ invoices and other supplies & purchasing duties.</li>
           </ul>
         </div>
+    
         <!-- TMU Intramurals Assistant -->
-        <div id="tmu-intramurals" class="col-md-8 mb-4 job-section">
+        <div id="tmu-intramurals" class="col-md-8 mb-4 job-section flex-column justify-content-center align-items-center mx-auto">
           <h5>Intramurals Assistant</h5>
           <p><strong>Toronto Metropolitan University</strong><br>
             <em>Sep 2023 - Apr 2024 & Sep 2024 - Present</em>
@@ -98,8 +115,9 @@
             <li>Achieved an average game time of 15 minutes, streamlining event execution, setups, takedowns, and timely game starts.</li>
           </ul>
         </div>
+    
         <!-- Marigolds & Onions -->
-        <div id="marigolds-onions" class="col-md-8 mb-4 job-section">
+        <div id="marigolds-onions" class="col-md-8 mb-4 job-section flex-column justify-content-center align-items-center mx-auto">
           <h5>Beverage Inventory Assistant</h5>
           <p><strong>Marigolds & Onions | Catering & Event Production</strong><br>
             <em>Jun 2022 - Aug 2022 & Jun 2023 - Aug 2023</em>
@@ -111,8 +129,9 @@
             <li>Restocked walk-in reefers with beverages, handling wines, liquor, beers, and mixers.</li>
           </ul>
         </div>
+    
         <!-- Best Buy -->
-        <div id="best-buy" class="col-md-8 mb-4 job-section">
+        <div id="best-buy" class="col-md-8 mb-4 job-section flex-column justify-content-center align-items-center mx-auto">
           <h5>Product Process Specialist</h5>
           <p><strong>Best Buy</strong><br>
             <em>Oct 2020 - Jan 2022</em>
@@ -127,6 +146,7 @@
         </div>
       </div>
     </section>
+    
   </main>
 
   <script src="project.js"></script>
