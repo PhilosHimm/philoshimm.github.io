@@ -1,6 +1,37 @@
 
-// Function to scroll to the Work Experience section button
+//Function to fade into different pages
+document.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', function (e) {
+    // Get the target URL of the clicked link
+    const targetUrl = this.href;
+    // Check if the target URL is different from the current page's URL
+    if (targetUrl.split('#')[0] !== window.location.href.split('#')[0]) {
+      e.preventDefault(); // Prevent immediate navigation
+      // Add the fade-out effect
+      document.body.classList.add('page-fade-out');
+      // Navigate to the new page after the fade-out finishes
+      setTimeout(() => {
+        window.location.href = targetUrl;
+      }, 500); // Match the CSS transition duration
+    }
+  });
+});
 
+// Function to smooth scroll for navbar-brand link
+document.addEventListener("DOMContentLoaded", () => {
+    const navbarBrand = document.querySelector('.navbar-brand');
+
+    navbarBrand.addEventListener('click', function (event) {
+      event.preventDefault(); // Prevent default behavior
+
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  }); 
+
+// Function to scroll to the Work Experience section button
 function scrollToWorkExperience() {
     const workExperienceSection = document.getElementById("work-experience");
     workExperienceSection.scrollIntoView({ behavior: "smooth" });
@@ -47,31 +78,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Initial check
   handleScroll();
-});
-
-// Function to highlight section when clicked on Nav
-document.addEventListener("DOMContentLoaded", () => {
-  const navLinks = document.querySelectorAll(".nav-link");
-
-  navLinks.forEach(link => {
-    link.addEventListener("click", (event) => {
-      event.preventDefault(); // Prevent default anchor click behavior
-
-      const targetId = link.getAttribute("href").substring(1); // Get the target section ID
-      const targetSection = document.getElementById(targetId);
-
-      // Scroll to the section
-      targetSection.scrollIntoView({ behavior: "smooth" });
-
-      // Add the highlight animation class
-      targetSection.classList.add("section-hover");
-
-      // Remove the animation class after it ends
-      setTimeout(() => {
-        targetSection.classList.remove("section-hover");
-      }, 800); // Match the duration of the animation
-    });
-  });
 });
 
 
