@@ -39,8 +39,15 @@ document.addEventListener("DOMContentLoaded", () => {
 // Function to fade into different pages
 document.querySelectorAll('a').forEach(link => {
   link.addEventListener('click', function (e) {
-    // Get the target URL of the clicked link
+    // Get the target URL and check if it should open in a new tab
     const targetUrl = this.href;
+    const isExternal = this.target === '_blank';
+
+    if (isExternal) {
+      // If the link is set to open in a new tab, skip the fade-out logic
+      return;
+    }
+
     // Check if the target URL is different from the current page's URL
     if (targetUrl.split('#')[0] !== window.location.href.split('#')[0]) {
       e.preventDefault(); // Prevent immediate navigation
@@ -53,6 +60,7 @@ document.querySelectorAll('a').forEach(link => {
     }
   });
 });
+
 
 // Function to smooth scroll for navbar-brand link
 document.addEventListener("DOMContentLoaded", () => {
