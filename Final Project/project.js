@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Automatically highlight on page load if there's a hash in the URL
-  const hashId = window.location.hash.slice(1); // Get the ID from the URL hash
+  const hashId = window.location.hash.slice(1);
   if (jobSectionIds.includes(hashId)) {
     highlightSection(hashId);
   }
@@ -47,7 +47,6 @@ document.querySelectorAll('a').forEach(link => {
       // If the link is set to open in a new tab, skip the fade-out logic
       return;
     }
-
     // Check if the target URL is different from the current page's URL
     if (targetUrl.split('#')[0] !== window.location.href.split('#')[0]) {
       e.preventDefault(); // Prevent immediate navigation
@@ -61,8 +60,7 @@ document.querySelectorAll('a').forEach(link => {
   });
 });
 
-
-// Function to smooth scroll for navbar-brand link
+// Function to smooth scroll for navbar
 document.addEventListener("DOMContentLoaded", () => {
     const navbarBrand = document.querySelector('.navbar-brand');
 

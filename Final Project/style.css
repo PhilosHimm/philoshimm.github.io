@@ -1,7 +1,7 @@
 /* Set scroll to above section */
 html {
-  scroll-behavior: smooth; /* Smooth scrolling */
-  scroll-padding-top: 60px; /* Adjust this value to match the height of your navbar */
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
 }
 
 /* Add smooth fade transition to the body */
@@ -17,51 +17,44 @@ body.page-fade-out {
 .header-icon {
   width: 48px;
   height: 48px; 
-  object-fit: contain; /* Ensure icons keep their aspect ratio */
+  object-fit: contain; 
 }
- 
+
 /* Custom styles for Bootstrap primary buttons */
 .btn-primary {
-  background-color: #000; /* Black background */
-  color: #fff; /* White text */
-  border-color: #000; /* Black border */
+  background-color: #000;
+  color: #fff;
+  border-color: #000; 
 }
 
-/* Optional: Change the hover state */
+/* Hover state */
 .btn-primary:hover {
-  background-color: #333; /* Dark gray for hover */
-  color: #fff; /* Keep text white */
-  border-color: #333; /* Match border to background */
-}
-
-/* Focus state */
-.btn-primary:focus {
-  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.5) !important; /* Black focus ring */
-  background-color: transparent !important; /* Ensure no background color */
+  background-color: #333; 
+  color: #fff; 
+  border-color: #333; 
 }
 
 /* Pressed/Active state */
 .btn-primary:active,
 .btn-primary:active:focus {
-  background-color: #333 !important; /* Darker background when pressed */
-  color: #fff !important; /* White text when pressed */
-  border-color: #000 !important; /* Keep border black */
-  transform: scale(0.95); /* Adds a slight "pressed in" effect */
+  background-color: #333 !important; 
+  color: #fff !important; 
+  border-color: #000 !important; 
+  transform: scale(0.95); 
 }
 
-
+/* Hero button */
 #CustomButton {
-  background-color: #fff; /* Black background */
-  color: #000; /* White text */
-  border-color: #000; /* Black border */
+  background-color: #fff; 
+  color: #000;
+  border-color: #000; 
 }
 
 #CustomButton:hover {
-  background-color: #000; /* Dark gray for hover */
-  color: #fff; /* Keep text white */
-  border-color: #000; /* Match border to background */
+  background-color: #000; 
+  color: #fff; 
+  border-color: #000; 
 }
-
 
 /* Custom styles for outline primary buttons */
 .btn-outline-primary {
@@ -75,12 +68,6 @@ body.page-fade-out {
   color: #fff; /* White text on hover */
   background-color: #000; /* Black background on hover */
   border-color: #000; /* Keep border black */
-}
-
-/* Focus state */
-.btn-outline-primary:focus {
-  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.5) !important; /* Black focus ring */
-  background-color: transparent !important; /* Ensure no background color */
 }
 
 /* Pressed/Active state */
@@ -104,6 +91,7 @@ body.page-fade-out {
   color: #000; /* Change to black text on interaction */
   background-color: #f8f9fa; /* Light gray background on interaction */
 }
+
 .btn.dropdown-toggle:active,
 .btn.dropdown-toggle.show {
   color: #fff; /* White text */
@@ -111,15 +99,12 @@ body.page-fade-out {
   border-color: #000; /* Black border */
 }
 
-
 #navbar {
     transition: top 0.3s ease-in-out;
     margin-top: -2rem;
 }
 
-
 /* Highlight effect */
-/* Initial state: no highlight */
 .job-section {
   background-color: transparent;
   transition: background-color 1s ease-in-out; /* Smooth transition for both entry and exit */
@@ -160,7 +145,7 @@ body.page-fade-out {
 
 .card:hover {
   transform: scale(1.05); /* Slightly enlarge the card */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .card-img-top {
@@ -169,11 +154,11 @@ body.page-fade-out {
 }  
 
 .card-body {
-  padding-bottom: 50px; /* Add padding to make space for the button */
+  padding-bottom: 50px; 
 }
 
 .card .btn {
   position: absolute;
-  bottom: 15px; /* Adjust the distance from the bottom */
-  left: 15px; /* Adjust the distance from the left */
+  bottom: 15px; 
+  left: 15px;
 }
