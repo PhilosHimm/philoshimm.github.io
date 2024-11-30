@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (section) {
       // Add the highlight class
       section.classList.add("highlight");
-      // Remove the highlight class after 1 second to allow the fade-out transition
+      // Remove the highlight class after 1.5 second to allow the fade-out transition
       setTimeout(() => {
         section.classList.remove("highlight");
       }, 1500);
