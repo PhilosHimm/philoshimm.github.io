@@ -1,10 +1,9 @@
-# ITM780 Web Design and Management Portfolio
+# ITM780 Web Development Portfolio
 
 [![Live Portfolio](https://img.shields.io/badge/Live-Portfolio-blue?style=for-the-badge)](https://philoshimm.github.io/)
 [![Course](https://img.shields.io/badge/Course-ITM780-purple?style=for-the-badge)](https://philoshimm.github.io/)
-[![TMU](https://img.shields.io/badge/University-Toronto%20Metropolitan-red?style=for-the-badge)](https://www.torontomu.ca/)
 
-A comprehensive collection of web design and management projects completed throughout the ITM780 course at Toronto Metropolitan University. This repository demonstrates the fundamental knowledge and skills for designing, developing and managing effective websites for businesses using HTML5, CSS3, and JavaScript following current web standards and best practices.
+A comprehensive collection of web development projects and assignments completed throughout the ITM780 course at Toronto Metropolitan University. This repository showcases the progressive learning journey from basic HTML structure to advanced web applications.
 
 ## 🌐 Live Demo
 
@@ -22,22 +21,13 @@ Visit the portfolio: **[philoshimm.github.io](https://philoshimm.github.io/)**
 
 ## 🎯 Overview
 
-This repository serves as a digital portfolio showcasing projects from **ITM780 - Web Design and Management** at Toronto Metropolitan University. The course provides fundamental knowledge and skills for designing, developing and managing effective websites for businesses using current standard web technologies including HTML5, JavaScript and CSS3.
+This repository contains a modern, responsive portfolio website featuring a grid-based landing page that showcases various web development projects. The main `index.html` serves as a central hub with an elegant card-based layout highlighting the progression from fundamental HTML concepts to advanced JavaScript applications.
 
-The portfolio features a modern, responsive landing page with a grid-based layout that demonstrates the progression from basic web fundamentals to a comprehensive professional portfolio website. All projects follow web standards and best practices as emphasized throughout the course curriculum.
-
-### Course Focus Areas:
-- **User-Centered Design Framework**: Website design based on user needs analysis
-- **Modern Web Technologies**: HTML5, CSS3, and JavaScript implementation
-- **Business Website Solutions**: Complete solutions for professional web presence
-- **Web Standards & Best Practices**: Industry-standard development approaches
-- **Website Management**: Publishing, security, performance optimization, and analytics
-
-### Portfolio Features:
-- **Responsive Design**: Optimized for all device types and screen sizes
-- **Professional UI/UX**: Clean, modern interface with smooth animations
-- **Progressive Skill Development**: Projects arranged to show learning progression
-- **Interactive Elements**: Dynamic content and engaging user interactions
+### Key Features:
+- **Responsive Design**: Optimized for all device sizes
+- **Modern UI/UX**: Clean, professional interface with smooth animations
+- **Progressive Learning**: Projects arranged to demonstrate skill development
+- **Interactive Elements**: Hover effects and dynamic content
 
 ## 📁 Repository Structure
 
@@ -101,127 +91,90 @@ philoshimm.github.io/
 
 ## 🚀 Projects & Labs
 
-### 🎯 [Final Project](Final%20Project/index.html) - **Personal Professional Portfolio Website**
-**Assignment Weight: 40% of final grade**
+### 🎯 [Final Project](Final%20Project/index.html) - **Featured Project**
+A comprehensive personal portfolio website showcasing:
+- **Professional Profile**: Complete bio, education, and career objectives
+- **Work Experience**: Detailed employment history with company descriptions
+- **Skills & Certifications**: Technical competencies and professional achievements
+- **Responsive Design**: Bootstrap 5 integration with custom CSS
+- **Interactive Elements**: JavaScript-enhanced user experience
+- **Modern UI**: Professional layout with optimized imagery and typography
 
-A comprehensive personal portfolio website demonstrating the culmination of course learning outcomes:
-- **User-Centered Design**: Designed using user needs analysis framework from Assignment 1
-- **Professional Presentation**: Complete bio, education, work experience, and skills showcase
-- **Modern Web Technologies**: HTML5, CSS3, JavaScript, and Bootstrap 5 integration
-- **Responsive Implementation**: Mobile-first design approach for cross-device compatibility
-- **Web Security & SEO**: Implementation of security best practices and search engine optimization
-- **Performance Optimization**: Optimized loading, content delivery, and user experience
-
-**Technologies**: HTML5, CSS3, JavaScript, Bootstrap 5, Responsive Design, SEO, Web Security
-
-**Course Learning Outcomes Demonstrated**:
-- ✅ User-centered design framework implementation
-- ✅ HTML tags, CSS, and JavaScript integration
-- ✅ Effective communication through website content and interactivity
-- ✅ Web security, SEO, and performance metrics implementation
+**Technologies**: HTML5, CSS3, JavaScript, Bootstrap 5, Responsive Design
 
 ---
 
-### 📝 **Mandatory Lab Submissions** (Labs 2, 3, 4)
-*Required for all students - Foundation of web development skills*
+### 🔥 [Lab 10](Lab10/Lab10.html) - Advanced JavaScript & DOM Manipulation
+Demonstrates advanced client-side programming concepts:
+- Complex DOM manipulation and event handling
+- Dynamic content generation and modification
+- Interactive user interface components
+- JavaScript best practices and optimization techniques
 
-### 🔨 [Lab 2](Lab2.html) - HTML5 and GitHub Basics
-**Week 2 | Mandatory Submission**
-- HTML5 document structure and semantic elements
-- Basic web page creation and content organization
-- GitHub repository setup and version control introduction
-- Internet basics including URI, domain names, and web fundamentals
-
-**Focus**: HTML5 Fundamentals, Document Structure, Version Control
+**Focus**: Advanced JavaScript, DOM APIs, Event-driven programming
 
 ---
 
-### � [Lab 3](Lab3/Lab3.html) - Cascading Style Sheets
-**Week 3 | Mandatory Submission**
-- CSS3 styling techniques and best practices
-- Web design principles and visual hierarchy
-- Color theory, typography, and layout fundamentals
-- Design tools and standards implementation
+### 🎬 [Lab 8](Lab8/lab8.html) - Media & Interactive Elements
+Integration of multimedia content with interactive features:
+- Video and image gallery implementations
+- Media controls and responsive media queries
+- Interactive photo galleries with JavaScript
+- Optimized media loading and display
 
-**Focus**: CSS3 Fundamentals, Web Design Principles, Visual Design
-
----
-
-### ⚡ [Lab 4] - JavaScript Fundamentals *(Implied from course schedule)*
-**Week 4 | Mandatory Submission**
-- JavaScript basics and DOM manipulation
-- Interactive web elements and user engagement
-- Client-side programming concepts
-- Script integration with HTML and CSS
-
-**Focus**: JavaScript Basics, Interactivity, Client-side Programming
+**Focus**: HTML5 Media APIs, CSS Media Queries, Interactive Galleries
 
 ---
 
-### � **Optional Lab Submissions** (Choose 3 from Labs 5-10)
-*Students select 3 additional labs to demonstrate specialized skills*
+### 📱 [Lab 6](Lab6/lab6.html) - Responsive Web Design
+Mobile-first responsive design implementation:
+- Flexible grid systems and responsive layouts
+- CSS Flexbox and Grid implementations
+- Mobile optimization and touch-friendly interfaces
+- Cross-device compatibility testing
 
-### 🌐 [Lab 5](Lab5/Lab5.html) - HTML5 Buttons and Menus
-**Week 5 | Optional Submission**
-- Navigation system design and implementation
-- HTML5 button elements and menu structures
-- Hyperlinking strategies and user flow optimization
-- Multi-page website architecture
-
-**Focus**: Navigation Design, Multi-page Architecture, User Experience
+**Focus**: Responsive Design, Mobile-First Approach, CSS Grid/Flexbox
 
 ---
 
-### 📱 [Lab 6](Lab6/lab6.html) - HTML5 Forms
-**Week 6 | Optional Submission**
-- Form design and input/output device handling
-- Table structures and data presentation
-- User input validation and processing
-- Responsive form layouts and accessibility
+### 🌐 [Lab 5](Lab5/Lab5.html) - Multi-page Navigation & CSS Styling
+Multi-page website with advanced navigation:
+- Site-wide navigation system
+- Consistent styling across multiple pages
+- CSS organizational strategies
+- User experience optimization
 
-**Focus**: Forms & Tables, Data Input/Output, User Interface Design
-
----
-
-### � [Lab 8](Lab8/lab8.html) - Accessibility Implementation
-**Week 8 | Optional Submission**
-- Web accessibility standards (WCAG) implementation
-- HTML5 media tags and multimedia integration
-- Inclusive design principles and assistive technology support
-- Usability testing and optimization
-
-**Focus**: Web Accessibility, Media Integration, Inclusive Design
+**Focus**: Multi-page Architecture, CSS Organization, Navigation Design
 
 ---
 
-### � [Lab 10](Lab10/Lab10.html) - Optimization Strategies
-**Week 11 | Optional Submission**
-- Search engine optimization (SEO) techniques
-- Website performance metrics and analytics
-- Keyword research and targeting strategies
-- Content optimization and user engagement measurement
+### 🎨 [Lab 3](Lab3/Lab3.html) - CSS Fundamentals & Layout
+Introduction to advanced CSS concepts:
+- CSS selectors and specificity
+- Box model and positioning
+- Color theory and typography
+- Layout techniques and design principles
 
-**Focus**: SEO, Performance Optimization, Analytics, Content Strategy
+**Focus**: CSS Fundamentals, Layout Design, Visual Hierarchy
+
+---
+
+### 📝 [Lab 2](Lab2.html) - HTML Structure & Basics
+Foundation of semantic HTML:
+- Proper HTML5 document structure
+- Semantic elements and accessibility
+- Content organization and hierarchy
+- Basic styling integration
+
+**Focus**: HTML5 Semantics, Document Structure, Content Organization
 
 ## 💻 Technologies Used
 
 ### Frontend Technologies
-- **HTML5**: Semantic markup, modern web standards, accessibility compliance
-- **CSS3**: Advanced styling, responsive design, animations, and modern layouts
-- **JavaScript**: DOM manipulation, event handling, interactive functionality
-- **Bootstrap 5**: Responsive framework and professional UI components
-
-### Course-Specific Tools & Resources
-- **Textbook**: *Basics of Web Design: HTML5 & CSS3, 6th Edition* by Terry Felke-Morris
-- **Learning Platform**: D2L Brightspace for course materials and submissions
-- **Development Resources**: W3Schools, XAMPP for local development
-- **Version Control**: Git/GitHub for project management and collaboration
-
-### Web Standards & Best Practices
-- **W3C Standards**: Compliant HTML5, CSS3, and JavaScript implementation
-- **Accessibility**: WCAG guidelines and inclusive design principles
-- **SEO**: Search engine optimization and performance metrics
-- **Security**: Web security assessment and best practices implementation
+- **HTML5**: Semantic markup and modern web standards
+- **CSS3**: Advanced styling, animations, and responsive design
+- **JavaScript (ES6+)**: DOM manipulation and interactive functionality
+- **Bootstrap 5**: Component framework and responsive utilities
 
 ### Development Tools
 - **Git/GitHub**: Version control and repository hosting
@@ -264,58 +217,29 @@ A comprehensive personal portfolio website demonstrating the culmination of cour
 - Simply open `index.html` in any modern web browser
 - All projects are designed to work without server requirements
 
-## 📚 Course Learning Outcomes & Assessment
+## 📚 Course Learning Outcomes
 
-### 🎯 **Official Course Learning Outcomes**
-Upon completion of ITM780, students are expected to be able to:
+This portfolio demonstrates mastery of key web development concepts:
 
-1. **✅ User-Centered Design Framework**: Use the user-centred design framework to design a personal portfolio website
-2. **✅ Web Technologies Integration**: Use HTML tags, Cascading Style Sheets and JavaScript to create and link page components
-3. **✅ Web Development Tools Assessment**: Assess a variety of web development tools
-4. **✅ Effective Communication**: Demonstrate website content and interactivity to communicate information effectively and efficiently
-5. **✅ Security & Optimization**: Demonstrate understanding of web security, Search Engine Optimization, and website performance metrics
+### Technical Skills Acquired
+- ✅ **HTML5 Semantic Structure**: Modern markup and accessibility
+- ✅ **CSS3 Advanced Styling**: Responsive design, animations, and layouts
+- ✅ **JavaScript Programming**: DOM manipulation, event handling, ES6+ features
+- ✅ **Responsive Design**: Mobile-first, cross-device compatibility
+- ✅ **Version Control**: Git workflow and collaborative development
+- ✅ **Web Performance**: Optimization techniques and best practices
 
-### 📊 **Course Assessment Structure**
+### Design & UX Principles
+- ✅ **User Experience Design**: Intuitive navigation and interaction
+- ✅ **Visual Hierarchy**: Typography, color theory, and layout
+- ✅ **Accessibility**: WCAG compliance and inclusive design
+- ✅ **Cross-browser Compatibility**: Testing and optimization
 
-| Assessment Component | Weight | Description |
-|----------------------|---------|-------------|
-| **Lab Assignments** | 18% | 6 submitted lab assignments (3 mandatory + 3 optional) |
-| **Lab Quiz** | 12% | Quiz covering Labs 2, 3, 4 material (Week 7) |
-| **Assignment 1 (A1)** | 15% | Needs analysis survey, data collection & project proposal |
-| **Assignment 2 (A2)** | 15% | Web development tool selection using weighted decision matrix |
-| **Final Project** | 40% | Complete personal professional portfolio website |
-| ├── P1: Progress Report | 5% | Project development milestone |
-| ├── P2: Peer Evaluations | 5% | Collaborative assessment component |
-| └── P3: Final Submission | 30% | Complete portfolio implementation |
-| **Total** | **100%** | *Minimum 50% required to pass* |
-
-### 🛠️ **Technical Skills Demonstrated**
-
-#### **Core Web Technologies**
-- ✅ **HTML5**: Semantic markup, modern web standards, accessibility features
-- ✅ **CSS3**: Advanced styling, responsive design, animations, and layouts
-- ✅ **JavaScript**: DOM manipulation, event handling, interactive functionality
-- ✅ **Responsive Design**: Mobile-first approach, cross-device compatibility
-
-#### **Professional Web Development**
-- ✅ **User-Centered Design**: Needs analysis, user research, design frameworks
-- ✅ **Web Standards & Best Practices**: W3C standards, semantic markup, clean code
-- ✅ **Version Control**: Git workflow, repository management, collaborative development
-- ✅ **Tool Assessment**: Evaluation and selection of appropriate development tools
-
-#### **Business Website Management**
-- ✅ **Web Security**: Security assessment, best practices, vulnerability protection
-- ✅ **SEO & Performance**: Search engine optimization, performance metrics, analytics
-- ✅ **Content Management**: Website publishing, backup, disaster recovery
-- ✅ **Digital Presence**: Domain management, hosting, professional web presence
-
-### 🎓 **Course Methodology**
-The course combines theoretical knowledge with practical application through:
-- **Lectures**: Theoretical concepts with practical application scenarios
-- **Laboratory Sessions**: Hands-on practice and skill development
-- **Individual Project**: Complete professional portfolio website development
-- **Tool Assessment**: Evaluation of web development tools and technologies
-- **User Research**: Needs analysis and user-centered design implementation
+### Professional Development
+- ✅ **Project Management**: Iterative development and documentation
+- ✅ **Code Organization**: Maintainable and scalable architecture
+- ✅ **Problem Solving**: Debugging and optimization strategies
+- ✅ **Portfolio Development**: Professional presentation of work
 
 ## 👨‍💻 About the Developer
 
@@ -323,17 +247,7 @@ The course combines theoretical knowledge with practical application through:
 *3rd Year Business Technology Management Student*  
 *Toronto Metropolitan University*
 
-This portfolio represents the culmination of learning in **ITM780 - Web Design and Management**, demonstrating progression from fundamental web technologies to professional business website development. Each project showcases the application of user-centered design principles, modern web standards, and best practices for creating effective business web presence.
-
-### Course Context:
-- **Institution**: Toronto Metropolitan University (TMU)
-- **Program**: Business Technology Management, Ted Rogers School of Management
-- **Course**: ITM780 - Web Design and Management (2024-2025)
-- **Instructor**: Somang Nam
-- **Prerequisites**: ITM100 or ITM102
-
-### Academic Achievement:
-This portfolio demonstrates mastery of all course learning outcomes including user-centered design implementation, modern web technology integration, tool assessment capabilities, effective digital communication, and comprehensive understanding of web security and optimization principles.
+This portfolio represents the culmination of learning in ITM780, demonstrating progression from basic web development concepts to advanced, professional-grade applications. Each project builds upon previous knowledge while introducing new technologies and methodologies.
 
 ### Connect with me:
 - **Portfolio**: [philoshimm.github.io](https://philoshimm.github.io/)
@@ -342,18 +256,12 @@ This portfolio demonstrates mastery of all course learning outcomes including us
 
 ---
 
-## 📄 Course Information
+## 📄 License
 
-**Course**: ITM780 - Web Design and Management  
-**Academic Year**: 2024-2025  
-**Institution**: Toronto Metropolitan University  
-**Instructor**: Somang Nam  
-**Prerequisites**: ITM100 or ITM102  
-
-This project portfolio fulfills the course requirements for designing, developing and managing effective websites for businesses using HTML5, CSS3, and JavaScript while following current web standards and best practices.
+This project is created for educational purposes as part of the ITM780 course curriculum at Toronto Metropolitan University.
 
 ---
 
 **Last Updated**: June 2025  
-**Course Completion**: 2024-2025 Academic Year  
-**Portfolio Status**: Complete - All learning outcomes demonstrated
+**Course**: ITM780 - Web Development  
+**Institution**: Toronto Metropolitan University
