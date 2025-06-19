@@ -250,7 +250,7 @@ This portfolio demonstrates mastery of key web development concepts:
 This portfolio represents the culmination of learning in ITM780, demonstrating progression from basic web development concepts to advanced, professional-grade applications. Each project builds upon previous knowledge while introducing new technologies and methodologies.
 
 ### Connect with me:
-- **Portfolio**: [philoshimm.github.io](https://philoshimm.ca)
+- **Portfolio**: [philoshimm.ca](https://philoshimm.ca)
 - **GitHub**: [github.com/philoshimm](https://github.com/philoshimm)
 - **LinkedIn**: [Connect on LinkedIn](https://linkedin.com/in/philoshimm)
 
